@@ -8,7 +8,72 @@ body{
     background: linear-gradient(45deg, #ff00aa, #6200ff);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-top: 60px;
 }
+.circleOne{
+    top: 360px;
+    left: 970px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    box-shadow: inset rgba(255, 255, 255, 0.466) 10px 10px 20px;
+    border-radius:100%;
+    background: linear-gradient(192deg, #ff00aa, #6200ff);
+}
+.circleTwo{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    box-shadow: inset rgba(255, 255, 255, 0.466) 10px 10px 20px;
+    border-radius:100%;
+    background: linear-gradient(130deg, #ff002b, #9900ff);
+}
+.plus{
+    position: absolute;
+    width: 230px;
+    height: 200px;
+    top: -60px;
+    left: 1070px;
+    transform: rotate(20deg);
+    font-size: 300px;
+    font-weight: bolder;
+    z-index: 2;
+}
+.minus{
+    position: absolute;
+    position: absolute;
+    top: 220px;
+    right: 20px;
+    transform: rotate(20deg);
+    font-size: 300px;
+    font-weight: bolder;
+    z-index: -2;
+}
+.multi{
+    position: absolute;
+    position: absolute;
+    top: 370px;
+    left: 35px;
+    transform: rotate(70deg);
+    font-size: 300px;
+    font-weight: bolder;
+}
+.divs{
+    position: absolute;
+    position: absolute;
+    top: -50px;
+    left: 400px;
+    transform: rotate(-70deg);
+    font-size: 200px;
+    font-weight: bolder;
+}
+
+
+
 .glass{
     max-width: 75%;
     padding: 40px;
@@ -16,7 +81,6 @@ body{
     border-radius: 25px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 5%;
     backdrop-filter: blur(10px);
 }
 h1{
