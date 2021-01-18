@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, #ff00aa, #6200ff);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.glass{
+    max-width: 75%;
+    padding: 40px;
+    background: linear-gradient(150deg, #ffffff2c, #ffffff17);
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    backdrop-filter: blur(10px);
+}
+h1{
+    text-align: center;
+    
+    margin-bottom: 50px;
+}
+.blocks{
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.form{
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 50px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    margin-right: 20px;
+}
+.form label{
+    margin-right: 20px;
+}
+.form p{
+    margin-right: 25px;
+}
+button{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    border: 2px solid aliceblue ;
+    padding: 5px 10px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin-right: 5%;
+}
+button:hover{
+    background-color: aliceblue;
+    color: rgb(223, 113, 204);
+}
