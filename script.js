@@ -9,3 +9,4 @@ function equallyone(){
     pOne = document.getElementById('equallyone')
     pOne.innerHTML = "addOne + addTwo"
 }
+
